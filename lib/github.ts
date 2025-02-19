@@ -1,7 +1,7 @@
 // GitHub repository details
 const GITHUB_OWNER = "xiaochaoye"
 const GITHUB_REPO = "game-and-editor-site"
-const GITHUB_TOKEN = "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"
+const GITHUB_TOKEN = "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"
 
 export interface Issue {
   title: string
