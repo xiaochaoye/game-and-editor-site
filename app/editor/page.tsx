@@ -136,7 +136,7 @@ Bob-->>John: Jolly good!
         <MDEditor
           value={value}
           onChange={(val) => setValue(val || "")}
-          height={700}
+          height={650}
           visibleDragbar={false}
           preview="live"
           commands={[
