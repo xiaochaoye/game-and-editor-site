@@ -47,7 +47,7 @@ export default function ContactPage() {
 
   return (
     <div className="flex flex-col items-center mb-2">
-      <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
+      <h1 className="text-3xl font-bold mb-4">联 系 我</h1>
       <form className="w-full max-w-md space-y-4" onSubmit={handleSubmit}>
         <Input
           type="text"
@@ -70,7 +70,7 @@ export default function ContactPage() {
           className="text-black"
         />
         <Button type="submit" className="w-full">
-          Send Message
+          发 送
         </Button>
       </form>
       {submitStatus && (
@@ -79,7 +79,7 @@ export default function ContactPage() {
         </p>
       )}
       <div className="w-full max-w-2xl mt-8 p-2 bg-gray-800 rounded-lg">
-        <h2 className="text-2xl font-bold mb-4">Previous Feedback</h2>
+        <h2 className="text-2xl font-bold mb-4">之前的反馈</h2>
         {fetchError ? (
           <p className="text-red-500">{fetchError}</p>
         ) : (
@@ -113,7 +113,7 @@ export default function ContactPage() {
               <p className="whitespace-pre-wrap">{selectedIssue?.body}</p>
             </div>
             <Button className="mt-4" onClick={() => setSelectedIssue(null)}>
-              Close
+              关闭
             </Button>
           </DialogContent>
         </Dialog>
