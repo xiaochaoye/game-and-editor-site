@@ -7,7 +7,7 @@ export function Navbar() {
     <nav className="bg-background border-b">
       <div className="container mx-auto flex justify-between items-center py-4">
         <Link href="/" className="text-2xl font-bold text-foreground hover:text-muted-foreground">
-          Game Or Editor
+          Game & Editor
         </Link>
         <div className="flex items-center space-x-4">
           <Button asChild variant="ghost">
