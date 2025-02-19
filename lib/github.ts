@@ -1,7 +1,7 @@
 // GitHub repository details
 const GITHUB_OWNER = "xiaochaoye"
-const GITHUB_REPO = "Amazon-Work-Notes"
-const GITHUB_TOKEN = "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"
+const GITHUB_REPO = "game-and-editor-site"
+const GITHUB_TOKEN = "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"
 
 export interface Issue {
   title: string
