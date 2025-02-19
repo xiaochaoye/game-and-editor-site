@@ -1,7 +1,7 @@
 // GitHub repository details
-const GITHUB_OWNER = "your_name"
-const GITHUB_REPO = "your_repo"
-const GITHUB_TOKEN = "your_token"
+const GITHUB_OWNER = "xiaochaoye"
+const GITHUB_REPO = "game-and-editor-site"
+const GITHUB_TOKEN = "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"
 
 export interface Issue {
   title: string
