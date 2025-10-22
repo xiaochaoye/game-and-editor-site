@@ -12,7 +12,7 @@ export function FAQ() {
         <AccordionItem value="item-2">
           <AccordionTrigger>我可以保存我在 Markdown 编辑器中的工作吗？</AccordionTrigger>
           <AccordionContent>
-            目前，编辑器没有内置保存功能。我们建议将您的作品复制到本地文件以妥善保存。
+            目前，编辑器没有内置保存功能。我们建议将您的作品下载到本地以妥善保存。
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
