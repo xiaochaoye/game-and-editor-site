@@ -10,7 +10,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Game & Editor Site",
   description: "A cool site with embedded game and Markdown editor",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: "/favicon.ico", 
+  },
 }
 
 export default function RootLayout({
